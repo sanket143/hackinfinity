@@ -1,0 +1,48 @@
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  z-index: 10000;
+  background-color: black;
+  left: 0;
+  top: 0;
+  color: white;
+}
+.loading h1 {
+  font-family: 'Mansalva', cursive;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.loading #count-down {
+  font-size: 45px;
+}
+
+.logo-wrapper {
+    margin: 14px;
+}
+
+.sponsors-list {
+    margin-top: 35px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsors-list .sponsor-logo {
+    min-width: 300px;
+    margin: 10px;
+}
+
+.sponsors-list div {
+    padding: 20px;
+}
+
+.team-member {
+    min-width: 250px;
+}
